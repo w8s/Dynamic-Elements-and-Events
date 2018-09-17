@@ -1,0 +1,31 @@
+#title {
+    transition: left 1s ease-out;
+    left: 0;
+}
+
+#title:hover {
+    cursor: pointer;
+}
+
+.delete {
+    color: red;
+}
+
+.hide {
+    display: none;
+}
+
+.click {
+    font-size: 6em;
+}
+
+#title.hover {
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+
+table thead tr td {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
